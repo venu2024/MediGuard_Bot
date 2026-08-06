@@ -2,7 +2,9 @@
 
 ## Overview
 
-MediGuard Bot is an IoT-based smart healthcare system developed to improve patient safety through automated medicine dispensing, environmental monitoring, and remote surveillance. The system uses an ESP32 microcontroller integrated with multiple sensors and an IP camera to provide real-time monitoring and emergency alerts.
+MediGuard Bot is an IoT-based healthcare assistance robot developed to improve patient care through automated medicine dispensing, environmental hazard detection, and real-time surveillance. The system uses an ESP32 microcontroller with Wi-Fi connectivity, enabling scheduled medicine dispensing using an RTC module while allowing users to manually control the robot through a mobile application.
+
+The project integrates gas and flame sensors to detect hazardous conditions and trigger safety alerts, while an IP Camera provides live video monitoring for remote observation. The solution combines embedded systems, IoT communication, and healthcare automation to enhance patient safety and reduce manual intervention.
 
 This project was developed as our final-year B.Tech academic project.
 
@@ -10,21 +12,22 @@ This project was developed as our final-year B.Tech academic project.
 
 ## Features
 
-- Automated medicine dispensing based on scheduled timings
+- Automated medicine dispensing using RTC scheduling
+- Mobile application-based robot movement control
 - Real-time medicine reminders
 - Gas leakage detection
 - Flame detection
 - Emergency buzzer alerts
-- Remote monitoring using IP Camera
-- ESP32 Wi-Fi connectivity
-- Real-time safety monitoring
+- Live video surveillance using IP Camera
+- Wi-Fi-enabled IoT communication
+- Real-time healthcare monitoring
 
 ---
 
 ## Technologies Used
 
 - ESP32
-- Embedded C++
+- Embedded C/C++
 - Arduino IDE
 - IoT
 - Wi-Fi
@@ -34,6 +37,7 @@ This project was developed as our final-year B.Tech academic project.
 - Flame Sensor
 - Buzzer
 - IP Camera
+- Android Application
 
 ---
 
@@ -57,7 +61,7 @@ This project was developed as our final-year B.Tech academic project.
 
 ## Project Outcome
 
-The project successfully demonstrates an IoT-enabled healthcare assistant capable of automated medicine dispensing, hazard detection, and remote surveillance to improve patient safety and reduce manual intervention.
+The project successfully demonstrates an IoT-enabled healthcare assistant capable of scheduled medicine dispensing, mobile app-based navigation, environmental hazard detection, and remote surveillance to improve patient safety and healthcare automation.
 
 ---
 
@@ -65,17 +69,17 @@ The project successfully demonstrates an IoT-enabled healthcare assistant capabl
 
 - ESP32 Source Code
 - Project Documentation
-- Paper publication
+- Demo Link
 
 ---
 
-## Future Improvements
+## Future Enhancements
 
-- Mobile Application
-- Cloud Database Integration
-- AI-based Patient Monitoring
-- Voice Assistant Integration
-- SMS/Emergency Notification
+- Cloud-based patient monitoring
+- AI-powered health analytics
+- Emergency SMS/Email alerts
+- Voice assistant integration
+- Medicine inventory tracking
 
 ---
 
